@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+font-family: Tahoma, sans-serif;
+color: blue; text-align: center; margin: auto;
+}
+
+p {
+font-family: Tahoma, sans-serif;
+ text-align: justify; 
+}
+
+.gallery {
+  display: flex;               
+  justify-content: center;     
+  gap: 20px;                   
+  flex-wrap: wrap; 
+}
+.gallery img {
+  width: 200px;               
+  height: auto;                
+  border-radius: 50px;         
+  
+}
+
+  body {
+      font-family: Tahoma, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      text-align: center;
+      height: 60px;
+      font-size: 12px;
+    }
+
+    th {
+      background-color: #e6eaf0;
+      font-weight: bold;
+    }
+
+    .day {
+      background-color: #9b8b8b;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .subject {
+         border-radius: 6px;
+        color: #000;
+        height: 100%;
+        }
+    .pink{
+        background-color: pink; 
+        border: 2px solid #e88fb2;
+        padding: 0;
+    }
+    .green{
+        background-color: rgb(183, 255, 183); 
+        border: 2px solid #e88fb2;
+        padding: 0;
+    }
+    .orange{
+        background-color: rgb(235, 214, 174); 
+        border: 2px solid #e88fb2;
+        padding: 0;
+    }
+    .blue{
+        background-color: rgb(184, 231, 246); 
+        border: 2px solid #e88fb2;
+        padding: 0;
+    }
+
+    
